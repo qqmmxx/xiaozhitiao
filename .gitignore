@@ -1,0 +1,60 @@
+# ===== Gradle =====
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+.gradletaskhistory
+
+# ===== Android Studio / IntelliJ =====
+.idea/
+*.iml
+*.hprof
+captures/
+.navigation/
+.externalNativeBuild/
+.cxx/
+.kotlin/
+
+# ===== 本地环境配置（含 SDK 绝对路径，绝不能入库）=====
+local.properties
+keystore.properties
+
+# ===== 签名文件（公开仓库绝不能提交，泄露即等于把应用签名权交出去）=====
+*.jks
+*.keystore
+*.p12
+*.pepk
+signing/
+
+# ===== 构建产物 =====
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+release/
+outputs/
+mapping.txt
+bin/
+gen/
+out/
+build/reports/
+
+# ===== 开发过程遗留文件 =====
+*.old
+*.bak
+*.orig
+*.tmp
+temp_output.txt
+Screenshot_*.png
+screen-*.png
+
+# ===== 系统 / 编辑器杂项 =====
+.DS_Store
+Thumbs.db
+*.log
+*~
+.fleet/
+.vscode/
+
+# ===== 本地工具数据（项目内的助手记忆/配置，不入库）=====
+.workbuddy/
