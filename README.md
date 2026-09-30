@@ -8,6 +8,8 @@
 
 七色分类 · 到期提醒 · 完成归档 · 编辑历史 · 回收站
 
+[![下载 APK](https://img.shields.io/badge/%E4%B8%8B%E8%BD%BD-APK%20v1.0-success?style=for-the-badge&logo=android&logoColor=white)](https://github.com/qqmmxx/xiaozhitiao/releases/latest)
+
 ![Platform](https://img.shields.io/badge/Platform-Android-3DDC84?logo=android&logoColor=white)
 ![Kotlin](https://img.shields.io/badge/Kotlin-2.0.21-7F52FF?logo=kotlin&logoColor=white)
 ![Compose](https://img.shields.io/badge/Jetpack%20Compose-BOM%202024.09-4285F4?logo=jetpackcompose&logoColor=white)
@@ -17,6 +19,28 @@
 </div>
 
 ---
+
+## 下载安装
+
+**不想自己编译？直接装现成的：**
+
+| | |
+| --- | --- |
+| 📦 **下载页** | [Releases · 所有版本](https://github.com/qqmmxx/xiaozhitiao/releases) |
+| ⬇️ **最新版直链** | [`xiaozhitiao-v1.0.apk`](https://github.com/qqmmxx/xiaozhitiao/releases/download/v1.0/xiaozhitiao-v1.0.apk) |
+| 📱 **环境要求** | Android 8.0（API 26）及以上 |
+| 📏 **体积** | 10.4 MB |
+| 🔑 **SHA-256** | `438190d90ff30e0c6072a272d21d0553c3c7f76b0fa8eab703ac531158a2df6b` |
+
+安装时系统会提示「未知来源应用」或「Play 保护机制」，因为这是自签名 APK，允许安装即可。
+
+> 校验下载完整性：
+> ```bash
+> # Windows
+> certutil -hashfile xiaozhitiao-v1.0.apk SHA256
+> # macOS / Linux
+> shasum -a 256 xiaozhitiao-v1.0.apk
+> ```
 
 ## 这是什么
 
@@ -89,7 +113,7 @@ app/src/main/java/com/xiaozhitiao/app/
 ### 从源码构建
 
 ```bash
-git clone https://github.com/<your-name>/xiaozhitiao.git
+git clone https://github.com/qqmmxx/xiaozhitiao.git
 cd xiaozhitiao
 
 # 首次需要指定本机 SDK 路径
